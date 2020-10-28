@@ -2,6 +2,11 @@ body,
 html {
   margin: 0;
   padding: 0;
+  background-color: rgb(233, 235, 238);
+}
+
+h1 {
+  margin: 0;
 }
 
 body {
@@ -17,4 +22,112 @@ ul {
   list-style: none;
   margin: 0;
   padding: 0;
+}
+
+.header {
+  height: 80px;
+  padding: 10px 500px;
+  background: rgb(68, 90, 147);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo h1 {
+  font-size: 40px;
+}
+
+.logo button {
+  border: none;
+  background-color: rgb(67, 184, 43);
+  height: 23px;
+  width: 45px;
+  margin-left: 10px;
+  color: white;
+}
+
+.nav-list {
+  display: flex;
+}
+
+.nav-item {
+  margin-left: 10px;
+  font-size: 15px;
+}
+
+.arrow-down {
+  width: 15px;
+}
+
+.main {
+  padding: 0 20px;
+}
+
+.article {
+  padding: 10px 480px;
+}
+
+.article h2 {
+  margin-bottom: 10px;
+}
+
+.article p {
+  margin-top: 10px;
+}
+
+.advertisement {
+  height: 450px;
+  display: flex;
+  padding: 10px 460px;
+  align-items: center;
+  justify-content: normal;
+}
+
+.brand {
+  margin: 0 auto;
+  width: 430px;
+  height: 440px;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.brand-figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.brand-image {
+  width: 170px;
+  height: 170px;
+}
+
+.brand-caption {
+  font-size: 14px;
+  color: #333;
+  text-align: center;
+}
+
+.brand-caption h2 {
+  font-size: 18px;
+}
+
+.brand-caption p {
+  color: darkgrey;
+}
+
+.brand-button {
+  margin-top: 80px;
+  border: 1px solid lightgrey;
+  height: 25px;
+  width: 50px;
 }
