@@ -49,7 +49,7 @@ ul {
 }
 
 .content {
-  height: 750px;
+  height: 850px;
   margin-top: 25px;
   display: flex;
   justify-content: center;
@@ -126,6 +126,7 @@ ul {
 
 .article {
   margin-left: 10px;
+  margin-bottom: 25px;
 }
 
 .img-first {
